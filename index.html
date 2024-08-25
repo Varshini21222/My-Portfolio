@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
+    <script src="main1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portforlio</a>
+
+        <nav class="navbar">
+            <a href="#Home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#Skills" style="--i:3">Skills</a>
+            <a href="#project" style="--i:4">Projects</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+
+    </header>
+
+    <section class="Home" id="Home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Varshini</h1>
+            <h3>And i'm a <span class="text"></span></h3>
+            <p>I'm a passionate Python developer with a keen interest in crafting efficient
+                <br> and robust software solutions. My journey in the world of programming <br>
+                began with a curiosity for problem-solving and a love for clean,<br> elegant code.
+            </p>
+
+            <div class="home-sci">
+                <a href="https://www.instagram.com/___varshini___07___" style="--i:7"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/@varshini_121" style="--i:8"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/varshini-jadhav-5a0247279" style="--i:9"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://www.snapchat.com/add/varshinii_121" style="--i:10"><i class='bx bxl-snapchat'></i></a>
+            </div>
+
+
+
+            <a href="resume.pdf" class="btn-box">Download Resume </a>
+        </div>
+        <div class="about-imge">
+            <img src="ex.jpg">
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="ex.jpg">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Full Stack Developer..!</h4>
+            <p> I'm Varshini, a Full Stack Python Developer with a passion for building robust and
+                user-centric applications. Proficient in both frontend and backend technologies,
+                I thrive on transforming ideas into seamless, efficient solutions. My tech stack
+                includes Python, Django, and modern frontend frameworks. With a commitment to continuous
+                learning, I stay ahead in the ever-evolving tech landscape. A collaborative team player
+                with strong communication skills, I bring creativity and innovation to every project.
+                Let's connect and turn your visions into reality!</p>
+        </div>
+    </section>
+
+    <center>
+        <div class="sub-title" id="Skills">
+            <h2>My <span>Skills</span></h2>
+        </div>
+    </center>
+
+    <section>
+        <div class="container1">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="technical-bars">
+
+                <div class="bar"><i style="color: #c95d2e" class='bx bxl-python'></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line Python" data-percentage="80">
+                        <span></span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="bar"><i style="color: #b0bc1e" class='bx bxl-django'></i>
+                    <div class="info">
+                        <span>Django</span>
+                    </div>
+                    <div class="progress-line Django" data-percentage="60">
+                        <span></span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="bar"><i style="color: #c23ec9" class='bx bxl-html5'></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line HTML" data-percentage="85">
+                        <span></span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="bar"><i style="color: #69bcbc" class='bx bxl-css3'></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line CSS" data-percentage="70">
+                        <span></span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="bar"><i style="color: #147bbc" class='bx bxl-javascript'></i>
+                    <div class="info">
+                        <span>Javascript</span>
+                    </div>
+                    <div class="progress-line Javascript" data-percentage="75">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar"><i style="color: #7914bc" class="bx bxl-Mysql"></i>
+                    <div class="info">
+                        <span>MYSQL</span>
+                    </div>
+                    <div class="progress-line Mysql" data-percentage="80">
+                        <span></span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+
+            <div class="radial-bar-container">
+
+                <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200" width="150" height="150">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage" data-percentage="90">90%</div>
+                    <div class="text">&nbsp;&nbsp;&nbsp;Creativity</div>
+                </div>
+
+                <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200" width="150" height="150">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage" data-percentage="80">80%</div>
+                    <div class="text">Communication</div>
+                </div>
+
+                <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200" width="150" height="150">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage" data-percentage="85">85%</div>
+                    <div class="text">Problem&nbsp;Solving</div>
+                </div>
+
+                <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200" width="150" height="150">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage" data-percentage="87">87%</div>
+                    <div class="text">Team-Work</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div id="portfolio" id="project">
+            <div class="main-text" id="project">
+                <h2>Latest<span>Project</span></h2>
+
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="p1.jpg">
+                        <div class="layer">
+                            <h5>Hostel Management Portal</h5>
+                            <p>In the course of my academic and practical endeavors, I spearheaded the
+                                development and implementation of a comprehensive Hostel Management System
+                                Portal. This project aimed to streamline and automate the various processes
+                                associated with managing student accommodations, ensuring efficiency,
+                                transparency, and enhanced user experience.</p>
+
+                            <a href="#"><i class='bx bx-link-external' style="color: aliceblue"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="p2.jpg">
+                        <div class="layer">
+                            <h5>Onlone Shopping Portal</h5>
+                            <p>As part of my academic and practical endeavors, I conceptualized,
+                                designed, and implemented an Online Shopping Management System Portal.
+                                This project not only demonstrated my proficiency in software development
+                                but also showcased my ability to address real-world challenges.</p>
+
+                            <a href="#"><i class='bx bx-link-external' style="color: aliceblue"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="p3.jpeg">
+                        <div class="layer">
+                            <h5>BCA Sharnbasva University Portal</h5>
+                            <p>As part of my academic journey, I actively contributed to the development
+                                and enhancement of the BCA (Bachelor of Computer Applications) Co-ed Portal
+                                at Sharnbasva University, Kalaburagi. This initiative aimed to streamline and
+                                enhance the overall academic and administrative experience for students,
+                                faculty, and staff.</p>
+
+                            <a href="#"><i class='bx bx-link-external' style="color: aliceblue"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-content">
+                        <div class="row">
+                            <img src="p4.jpg">
+                            <div class="layer">
+                                <h5>Stock Trend Prediction</h5>
+                                <p>In this digital age, information is abundant but understanding is key.
+                                    Our project aims to bridge this gap by providing users with a robust
+                                    toolkit for navigating the complexities of stock markets. Through a
+                                    seamless interface, you can explore historical data, visualize trends,
+                                    compare stock prices, and stay informed with real-time market news.</p>
+
+                                <a href="#"><i class='bx bx-link-external' style="color: aliceblue"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact<span>Me</span></h2>
+            <h4>Let's Work Togother</h4>
+            <p>In my portfolio, you will find a comprehensive overview of my professional identity, skills,
+                and key projects. The "About Me" section provides a brief yet insightful glimpse into my
+                background and career motivations. The "Skills" section outlines my proficiency in both
+                technical and soft skills, essential for navigating today's dynamic work environment.
+                Under "Projects," I delve into significant endeavors, detailing my role, the technologies
+                used, and the tangible results achieved. Lastly, in the "Contact" section, you'll find my
+                professional contact information and links to relevant profiles, facilitating easy
+                communication and further exploration of my work.</p>
+
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i>varshinijadhav31@gmail.com</li>
+                <li><i class='bx bx-phone-call'></i>9686616132</li>
+            </div>
+
+            <div class="contact-icons">
+                <a href="https://www.instagram.com/___varshini___07___"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.snapchat.com/add/varshinii_121"><i class='bx bxl-snapchat'></i></a>
+                <a href="https://www.linkedin.com/in/varshini-jadhav-5a0247279"><i
+                        class='bx bxl-linkedin-square'></i></a>
+                <a href="https://twitter.com/@varshini_121"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="" class="contact__form" id="contact-form">
+
+                <input type="" name="user_name" placeholder="Enter your name" required>
+
+                <input type="email" name="user_email" placeholder="Enter your Email" required>
+
+                <input type="" name="user_subject" placeholder="Enter your Subjecet">
+
+                <textarea name="user_message" id="" cols="40" rows="10" placeholder="Enter Your Message"
+                    required></textarea>
+
+                <p class="contact_message" id="contact_message"></p>
+
+                <input type="submit" value="submit" name="submit" class="send">
+
+            </form>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>Developed by Varshini @ 2024</p>
+    </div>
+
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
